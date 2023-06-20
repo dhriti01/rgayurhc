@@ -9,13 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/style": "^0.8.0",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/metropolis": "^4.5.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "@mui/styles": "^5.13.2",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
+    "node-html-parser": "^6.1.5",
     "postcss": "8.4.23",
+    "puppeteer": "^20.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "react-router-hash-link": "^2.4.3",
+    "react-swipeable-views": "^0.14.0",
+    "tailwindcss": "3.3.2",
+    "tls": "^0.0.1",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.3"
   }
 }
