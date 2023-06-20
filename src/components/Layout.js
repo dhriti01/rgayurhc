@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "./customTheme";
+import theme from "../app/customTheme";
 
 export default function Layout() {
   const [isLoading, setIsLoading] = useState(true);
