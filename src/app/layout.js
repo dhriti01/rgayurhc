@@ -7,7 +7,7 @@ export const metadata = {
   description: "Official site of RG Ayur Healthcare",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout() {
   return (
     <html
       lang="en"
