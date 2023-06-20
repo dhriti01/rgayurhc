@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../app/customTheme";
 
-export default function Layout() {
+export default function Layout(props) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
