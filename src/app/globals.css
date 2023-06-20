@@ -22,7 +22,7 @@
 body {
   background-color: theme('colors.white.DEFAULT');
   width: 83vw;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .header{
