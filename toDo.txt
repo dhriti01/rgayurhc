@@ -1,9 +1,1 @@
-To do list:
-10. links daalne hain-footer/about
-11. Clinic facebook, insta
-15. arrow icon blog cards
-18. payment link in mail
 
-Future Scope:
-13. membership for medium reqd./add per blog page
-19. Home page css
