@@ -7,14 +7,14 @@ export const metadata = {
   description: "Official site of RG Ayur Healthcare",
 };
 
-export default function RootLayout() {
+export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
       className={`${proximaNova.variable} ${poppins.variable} ${inter.variable}`}
     >
       <body>
-        <Layout />
+        <Layout child={children} />
       </body>
     </html>
   );

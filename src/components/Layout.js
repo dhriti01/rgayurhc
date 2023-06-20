@@ -22,7 +22,7 @@ export default function Layout() {
   return (
     <ThemeProvider theme={theme}>
       <Header />
-      {isLoading ? <Loading /> : <main>{children}</main>}
+      {isLoading ? <Loading /> : <main>{props.child}</main>}
       <Footer />
     </ThemeProvider>
   );
