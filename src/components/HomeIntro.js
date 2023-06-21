@@ -8,11 +8,12 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Image from "next/image";
+import { StyledEngineProvider } from "@mui/material/styles";
 // import { HashLink as HLink } from "react-router-hash-link";
 
 export default function HomeIntro() {
   return (
-    <>
+    <StyledEngineProvider injectFirst>
       <Box className="homeIntroBox">
         <Grid container rowSpacing={{ xs: 3, md: 0 }} columnSpacing={{ md: 3 }}>
           <Grid item xs={12} md={6} sx={{ display: "flex" }}>
@@ -178,6 +179,6 @@ export default function HomeIntro() {
           </Grid>
         </Grid>
       </Box>
-    </>
+    </StyledEngineProvider>
   );
 }
