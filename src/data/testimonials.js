@@ -1,14 +1,14 @@
 export const testimonials = [
   {
-    name: "Jenny Wilson",
+    name: "Varinder Kaur",
     designation: "Patient",
     feedback:
-      "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+      "I am so thankful to Dr Rosy Gupta for treating my chronic skin problem during Covid times when I literally cried on call to her for my agonies as my Skin specialist has closed all doors for me. Dr Rosy guided me diet and hygiene along with the prescription and I was much relieved in just a weak.",
   },
   {
-    name: "Jane Doe",
+    name: "Kamaljeet kaur",
     designation: "Patient",
     feedback:
-      "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks.",
+      "My pain in abdomen was not being diagnosed by any gastro specialist in Patiala. I still gets horrified by remembering those days. Pure Ayurvedic treatment at RG Ayur Healthcare has cured me fully. God bless Dr Rosy for listening me so patiently and understanding me nd my problem.",
   },
 ];

@@ -32,7 +32,7 @@ export default function HomeIntro() {
                 sx={{ flexGrow: 1, mb: 3 }}
                 className="text-black-101 font-normal"
               >
-                Building trustable relationship with patients for 15+ years
+                Building trustable relationship with patients for 20+ years
               </Typography>
               <Button
                 variant="contained"
@@ -52,7 +52,7 @@ export default function HomeIntro() {
           </Grid>
           <Grid item xs={12} md={6}>
             <Image
-              src="/images/HappyDoc.png"
+              src="/images/HappyDoc1.svg"
               alt="logo"
               width="0"
               height="0"
